@@ -13,3 +13,4 @@ This application allows users to view Warrior Cats Characters!
 
 * The WarriorsCharacters app for the pictures.
 * The Warrior Cats wiki page for the information. 
+* Referenced W3Schools for HTML navbar help.
