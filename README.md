@@ -6,7 +6,7 @@ This application allows users to view Warrior Cats Characters!
 
 ## Usage
 
-* Navigate to the deployed link
+* Navigate to the deployed [link](https://kali20987.github.io/WarriorsCharacters/)
 * Have fun!
 
 ## Credits
