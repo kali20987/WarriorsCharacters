@@ -1,99 +1,107 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Warriors Characters</title>
+  <meta charset="UTF-8" />
+  <title>Warriors Characters</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Adderfang</h1>
-    <h2>General Information</h2>
-    <p>Clan: Thunderclan</p>
-    <p>Mentor: </p>
-    <p>Apprentice: Thistleclaw</p>
-    <p>Description: </p>
-    <div id="theSidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#adderfang">Adderfang</a>
-        <a href="#alderheart">Alderheart</a>
-        <a href="#ashfur">Ashfur</a>
-        <a href="#barley">Barley</a>
-        <a href="#berrynose">Berrynose</a>
-        <a href="#birchfall">Birchfall</a>
-        <a href="#blackstar">Blackstar</a>
-        <a href="#blossomfall">Blossomfall</a>
-        <a href="#bluestar">Bluestar</a>
-        <a href="#brackenfur">Brackenfur</a>
-        <a href="#bramblestar">Bramblestar</a>
-        <a href="#breezepelt">Breezepelt</a>
-        <a href="#briarlight">Briarlight</a>
-        <a href="#brightheart">Brightheart</a>
-        <a href="#brindleface">Brindleface</a>
-        <a href="#brokenstar">Brokenstar</a>
-        <a href="#bumblestripe">Bumblestripe</a>
-        <a href="#cinderheart">Cinderheart</a>
-        <a href="#cinderpelt">Cinderpelt</a>
-        <a href="#clawface">Clawface</a>
-        <a href="#cloudstar">Cloudstar</a>
-        <a href="#cloudtail">Cloudtail</a>
-        <a href="#crookedstar">Crookedstar</a>
-        <a href="#daisy">Daisy</a>
-        <a href="#dawnpelt">Dawnpelt</a>
-        <a href="#deadfoot">Deadfoot</a>
-        <a href="#dovewing">Dovewing</a>
-        <a href="#echosong">Echosong</a>
-        <a href="#fallowfern">Fallowfern</a>
-        <a href="#feathertail">Feathertail</a>
-        <a href="#ferncloud">Ferncloud</a>
-        <a href="#firestar">Firestar</a>
-        <a href="#flametail">Flametail</a>
-        <a href="#frostfur">Frostfur</a>
-        <a href="#goosefeather">Goosefeather</a>
-        <a href="#graypool">Graypool</a>
-        <a href="#graystripe">Graystripe</a>
-        <a href="#halfmoon">Half Moon</a>
-        <a href="#hollyleaf">Hollyleaf</a>
-        <a href="#honeyfern">Honeyfern</a>
-        <a href="#ivypool">Ivypool</a>
-        <a href="#jayfeather">Jayfeather</a>
-        <a href="#leafpool">Leafpool</a>
-        <a href="#leafstar">Leafstar</a>
-        <a href="#leopardstar">Leopardstar</a>
-        <a href="#lionblaze">Lionblaze</a>
-        <a href="#lionheart">Lionheart</a>
-        <a href="#longtail">Longtail</a>
-        <a href="#mistystar">Mistystar</a>
-        <a href="#mothwing">Mothwing</a>
-        <a href="#mousefur">Mousefur</a>
-        <a href="#nightcloud">Nightcloud</a>
-        <a href="#nightstar">Nightstar</a>
-        <a href="#oakheart">Oakheart</a>
-        <a href="#princess">Princess</a>
-        <a href="#ravenpaw">Ravenpaw</a>
-        <a href="#redtail">Redtail</a>
-        <a href="#runningnose">Runningnose</a>
-        <a href="#russetfur">Russetfur</a>
-        <a href="#sandstorm">Sandstorm</a>
-        <a href="#scourge">Scourge</a>
-        <a href="#silverstream">Silverstream</a>
-        <a href="#sol">Sol</a>
-        <a href="#sorreltail">Sorreltail</a>
-        <a href="#spottedleaf">Spottedleaf</a>
-        <a href="#squirrelflight">Squirrelflight</a>
-        <a href="#stonefur">Stonefur</a>
-        <a href="#sunstar">Sunstar</a>
-        <a href="#tallstar">Tallstar</a>
-        <a href="#tawnypelt">Tawnypelt</a>
-        <a href="#thunderstar">Thunderstar</a>
-        <a href="#tigerstar">Tigerstar</a>
-        <a href="#whitestorm">Whitestorm</a>
-        <a href="#whitewing">Whitewing</a>
-        <a href="#yellowfang">Yellowfang</a>
-      </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    <script src="assets/js/index.js"></script>
-</body>
 
+  <!-- Profile Section -->
+  <h1 id="cat-name">Adderfang</h1>
+  <img id="cat-image" class="cat-image" src="assets/images/adderfang.png" alt="Adderfang">
+
+  <h2>General Information</h2>
+  <p id="cat-clan">Clan: ThunderClan</p>
+  <p id="cat-mentor">Mentor: Unknown</p>
+  <p id="cat-apprentice">Apprentice: Thistleclaw</p>
+  <p id="cat-description">Description: A strong ThunderClan warrior.</p>
+
+  <!-- Side Navigation -->
+  <div id="theSidenav" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a href="#" onclick="showCat('adderfang')">Adderfang</a>
+    <a href="#" onclick="showCat('alderheart')">Alderheart</a>
+    <a href="#" onclick="showCat('ashfur')">Ashfur</a>
+    <a href="#" onclick="showCat('barley')">Barley</a>
+    <a href="#" onclick="showCat('berrynose')">Berrynose</a>
+    <a href="#" onclick="showCat('birchfall')">Birchfall</a>
+    <a href="#" onclick="showCat('blackstar')">Blackstar</a>
+    <a href="#" onclick="showCat('blossomfall')">Blossomfall</a>
+    <a href="#" onclick="showCat('bluestar')">Bluestar</a>
+    <a href="#" onclick="showCat('brackenfur')">Brackenfur</a>
+    <a href="#" onclick="showCat('bramblestar')">Bramblestar</a>
+    <a href="#" onclick="showCat('breezepelt')">Breezepelt</a>
+    <a href="#" onclick="showCat('briarlight')">Briarlight</a>
+    <a href="#" onclick="showCat('brightheart')">Brightheart</a>
+    <a href="#" onclick="showCat('brindleface')">Brindleface</a>
+    <a href="#" onclick="showCat('brokenstar')">Brokenstar</a>
+    <a href="#" onclick="showCat('bumblestripe')">Bumblestripe</a>
+    <a href="#" onclick="showCat('cinderheart')">Cinderheart</a>
+    <a href="#" onclick="showCat('cinderpelt')">Cinderpelt</a>
+    <a href="#" onclick="showCat('clawface')">Clawface</a>
+    <a href="#" onclick="showCat('cloudstar')">Cloudstar</a>
+    <a href="#" onclick="showCat('cloudtail')">Cloudtail</a>
+    <a href="#" onclick="showCat('crookedstar')">Crookedstar</a>
+    <a href="#" onclick="showCat('daisy')">Daisy</a>
+    <a href="#" onclick="showCat('dawnpelt')">Dawnpelt</a>
+    <a href="#" onclick="showCat('deadfoot')">Deadfoot</a>
+    <a href="#" onclick="showCat('dovewing')">Dovewing</a>
+    <a href="#" onclick="showCat('echosong')">Echosong</a>
+    <a href="#" onclick="showCat('fallowfern')">Fallowfern</a>
+    <a href="#" onclick="showCat('feathertail')">Feathertail</a>
+    <a href="#" onclick="showCat('ferncloud')">Ferncloud</a>
+    <a href="#" onclick="showCat('firestar')">Firestar</a>
+    <a href="#" onclick="showCat('flametail')">Flametail</a>
+    <a href="#" onclick="showCat('frostfur')">Frostfur</a>
+    <a href="#" onclick="showCat('goosefeather')">Goosefeather</a>
+    <a href="#" onclick="showCat('graypool')">Graypool</a>
+    <a href="#" onclick="showCat('graystripe')">Graystripe</a>
+    <a href="#" onclick="showCat('halfmoon')">Half Moon</a>
+    <a href="#" onclick="showCat('hollyleaf')">Hollyleaf</a>
+    <a href="#" onclick="showCat('honeyfern')">Honeyfern</a>
+    <a href="#" onclick="showCat('ivypool')">Ivypool</a>
+    <a href="#" onclick="showCat('jayfeather')">Jayfeather</a>
+    <a href="#" onclick="showCat('leafpool')">Leafpool</a>
+    <a href="#" onclick="showCat('leafstar')">Leafstar</a>
+    <a href="#" onclick="showCat('leopardstar')">Leopardstar</a>
+    <a href="#" onclick="showCat('lionblaze')">Lionblaze</a>
+    <a href="#" onclick="showCat('lionheart')">Lionheart</a>
+    <a href="#" onclick="showCat('longtail')">Longtail</a>
+    <a href="#" onclick="showCat('mistystar')">Mistystar</a>
+    <a href="#" onclick="showCat('mothwing')">Mothwing</a>
+    <a href="#" onclick="showCat('mousefur')">Mousefur</a>
+    <a href="#" onclick="showCat('nightcloud')">Nightcloud</a>
+    <a href="#" onclick="showCat('nightstar')">Nightstar</a>
+    <a href="#" onclick="showCat('oakheart')">Oakheart</a>
+    <a href="#" onclick="showCat('princess')">Princess</a>
+    <a href="#" onclick="showCat('ravenpaw')">Ravenpaw</a>
+    <a href="#" onclick="showCat('redtail')">Redtail</a>
+    <a href="#" onclick="showCat('runningnose')">Runningnose</a>
+    <a href="#" onclick="showCat('russetfur')">Russetfur</a>
+    <a href="#" onclick="showCat('sandstorm')">Sandstorm</a>
+    <a href="#" onclick="showCat('scourge')">Scourge</a>
+    <a href="#" onclick="showCat('silverstream')">Silverstream</a>
+    <a href="#" onclick="showCat('sol')">Sol</a>
+    <a href="#" onclick="showCat('sorreltail')">Sorreltail</a>
+    <a href="#" onclick="showCat('spottedleaf')">Spottedleaf</a>
+    <a href="#" onclick="showCat('squirrelflight')">Squirrelflight</a>
+    <a href="#" onclick="showCat('stonefur')">Stonefur</a>
+    <a href="#" onclick="showCat('sunstar')">Sunstar</a>
+    <a href="#" onclick="showCat('tallstar')">Tallstar</a>
+    <a href="#" onclick="showCat('tawnypelt')">Tawnypelt</a>
+    <a href="#" onclick="showCat('thunderstar')">Thunderstar</a>
+    <a href="#" onclick="showCat('tigerstar')">Tigerstar</a>
+    <a href="#" onclick="showCat('whitestorm')">Whitestorm</a>
+    <a href="#" onclick="showCat('whitewing')">Whitewing</a>
+    <a href="#" onclick="showCat('yellowfang')">Yellowfang</a>
+  </div>
+
+  <!-- Menu Button -->
+  <span class="menu-button" onclick="openNav()">&#9776;</span>
+
+  <script src="assets/js/index.js"></script>
+</body>
 </html>
