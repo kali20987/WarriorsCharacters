@@ -52,25 +52,25 @@ const cats = {
 
   hollyleaf: { name:"Hollyleaf", clan:"ThunderClan", mentor:"Brackenfur", apprentice:"None", description:"A rule-driven warrior in the lake territories.", image:"assets/images/hollyleaf.png" },
   honeyfern: { name:"Honeyfern", clan:"ThunderClan", mentor:"Sandstorm", apprentice:"None", description:"A kind young warrior in the lake territories.", image:"assets/images/honeyfern.png" },
-  ivypool: { name:"Ivypool", clan:"ThunderClan", mentor:"Cinderheart", apprentice:"None", description:"A determined warrior.", image:"assets/images/ivypool.png" },
+  ivypool: { name:"Ivypool", clan:"ThunderClan", mentor:"Cinderheart", apprentice:"Snowbush, Twigbranch", description:"A determined warrior who serves as deputy under Squirrelstar's leadership.", image:"assets/images/ivypool.png" },
 
-  jayfeather: { name:"Jayfeather", clan:"ThunderClan", mentor:"Leafpool", apprentice:"None", description:"A sharp-tongued medicine cat.", image:"assets/images/jayfeather.png" },
+  jayfeather: { name:"Jayfeather", clan:"ThunderClan", mentor:"Leafpool", apprentice:"Alderheart", description:"A senior sharp-tongued medicine cat.", image:"assets/images/jayfeather.png" },
 
-  leafpool: { name:"Leafpool", clan:"ThunderClan", mentor:"Cinderpelt", apprentice:"Jayfeather", description:"A kind medicine cat.", image:"assets/images/leafpool.png" },
+  leafpool: { name:"Leafpool", clan:"ThunderClan", mentor:"Cinderpelt", apprentice:"Jayfeather", description:"A kind medicine cat under Firestar and Bramblestar's leaderships.", image:"assets/images/leafpool.png" },
   leafstar: { name:"Leafstar", clan:"SkyClan", mentor:"None", apprentice:"Sparrowpelt", description:"A leader in the gorge and lake territories.", image:"assets/images/leafstar.png" },
-  leopardstar: { name:"Leopardstar", clan:"RiverClan", mentor:"None", apprentice:"None", description:"A proud RiverClan leader.", image:"assets/images/leopardstar.png" },
-  lionblaze: { name:"Lionblaze", clan:"ThunderClan", mentor:"Ashfur", apprentice:"None", description:"A powerful warrior.", image:"assets/images/lionblaze.png" },
+  leopardstar: { name:"Leopardstar", clan:"RiverClan", mentor:"Whitefang", apprentice:"Whiteclaw", description:"A proud leader in the forest and lake territories.", image:"assets/images/leopardstar.png" },
+  lionblaze: { name:"Lionblaze", clan:"ThunderClan", mentor:"Ashfur", apprentice:"Dovewing", description:"A powerful warrior under Firestar and Bramblestar's leaderships.", image:"assets/images/lionblaze.png" },
   lionheart: { name:"Lionheart", clan:"ThunderClan", mentor:"Swiftbreeze", apprentice:"Graystripe", description:"A noble warrior and deputy in the forest territories.", image:"assets/images/lionheart.png" },
   longtail: { name:"Longtail", clan:"ThunderClan", mentor:"Tigerstar", apprentice:"Swiftpaw, Ferncloud", description:"A sharp-tongued warrior.", image:"assets/images/longtail.png" },
 
-  mistystar: { name:"Mistystar", clan:"RiverClan", mentor:"Bluestar", apprentice:"None", description:"A long-living leader.", image:"assets/images/mistystar.png" },
-  mothwing: { name:"Mothwing", clan:"RiverClan", mentor:"None", apprentice:"None", description:"A skeptical medicine cat.", image:"assets/images/mothwing.png" },
-  mousefur: { name:"Mousefur", clan:"ThunderClan", mentor:"None", apprentice:"Longtail", description:"A sharp-witted elder.", image:"assets/images/mousefur.png" },
+  mistystar: { name:"Mistystar", clan:"RiverClan", mentor:"Echomist", apprentice:"Mothwing, Reedwhisker", description:"A long-living leader in the lake territories.", image:"assets/images/mistystar.png" },
+  mothwing: { name:"Mothwing", clan:"RiverClan", mentor:"Mistystar", apprentice:"Willowshine", description:"A skeptical medicine cat in the forest and lake territories.", image:"assets/images/mothwing.png" },
+  mousefur: { name:"Mousefur", clan:"ThunderClan", mentor:"Redtail", apprentice:"Thornclaw, Spiderleg", description:"A sharp-witted elder in the forest and lake territories.", image:"assets/images/mousefur.png" },
 
-  nightcloud: { name:"Nightcloud", clan:"WindClan", mentor:"Unknown", apprentice:"Hootwhisker", description:"Overprotective warrior in the lake territories.", image:"assets/images/nightcloud.png" },
-  nightstar: { name:"Nightstar", clan:"ShadowClan", mentor:"None", apprentice:"None", description:"A short-lived leader.", image:"assets/images/nightstar.png" },
+  nightcloud: { name:"Nightcloud", clan:"WindClan", mentor:"Unknown", apprentice:"Hootwhisker", description:"Overprotective mother in the lake territories.", image:"assets/images/nightcloud.png" },
+  nightstar: { name:"Nightstar", clan:"ShadowClan", mentor:"None", apprentice:"None", description:"A short-lived leader in the forest territories.", image:"assets/images/nightstar.png" },
 
-  oakheart: { name:"Oakheart", clan:"RiverClan", mentor:"None", apprentice:"None", description:"A brave RiverClan warrior.", image:"assets/images/oakheart.png" },
+  oakheart: { name:"Oakheart", clan:"RiverClan", mentor:"None", apprentice:"None", description:"A brave warrior.", image:"assets/images/oakheart.png" },
   princess: { name:"Princess", clan:"Kittypet", mentor:"None", apprentice:"None", description:"Firestar’s sister.", image:"assets/images/princess.png" },
 
   ravenpaw: { name:"Ravenpaw", clan:"Former ThunderClan", mentor:"Tigerstar", apprentice:"None", description:"A gentle runaway.", image:"assets/images/ravenpaw.png" },
